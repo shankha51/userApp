@@ -27,8 +27,8 @@ jobs:
         distribution: 'adopt'
         cache: maven
         server-id: snapshotnexus # Value of the distributionManagement/repository/id field of the pom.xml
-        server-username: ${{ secrets.NEXUS_USERNAME }}
-        server-password: ${{ secrets.NEXUS_PASSWORD }}
+        server-username: admin
+        server-password: admin
 
         settings-path: ${{ github.workspace }} # location for the settings.xml file
 
